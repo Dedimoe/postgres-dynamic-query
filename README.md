@@ -2,7 +2,7 @@
 postgres-dynamic-query
 
 ```
-CREATE OR REPLACE function dValue() return numerix AS $func$
+CREATE OR REPLACE function dValue() return numeric AS $func$
 declare
   sSchema varchar2(20);
   vValue numeric;
